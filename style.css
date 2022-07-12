@@ -1,0 +1,202 @@
+body {
+    background-color: rgb(233, 241, 241);
+}
+
+.fb {
+    margin-top: 180px;
+}
+
+.fb h1 {
+
+    font-size: 3.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(90, 93, 251);
+    letter-spacing: -1px;
+}
+
+.fb p {
+
+    font-size: 1.7em;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    letter-spacing: -1px;
+    line-height: 0.8cm;
+
+}
+
+.cont1 {
+    margin-top: 120px;
+    padding: 14px 14px 20px 14px;
+    width: 400px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    -webkit-box-shadow: 2px solid black;
+    box-shadow: 2px solid black;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-block {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.btn1 a {
+    text-decoration: none;
+    margin-left: 110px;
+    font-size: 15px;
+}
+
+.btn2 {
+    text-align: center;
+}
+
+.create {
+    background-color: rgb(55, 188, 55);
+    color: white;
+    font-weight: 600;
+}
+
+.create:hover {
+    background-color: rgb(50, 178, 50);
+    color: white;
+}
+
+.btn3 a {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 15px 0 0 130px;
+}
+
+.btn3 a:hover {
+    text-decoration: underline;
+}
+
+.btn3 p {
+    font-size: 14px;
+
+    margin: -28px 0 0 235px;
+}
+
+#enter {
+    background-color: blue;
+    color: rgb(235, 163, 163);
+}
+
+.form-control {
+    padding: 14px;
+    font-size: 17px;
+}
+
+.form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control:hover {
+    border-color: blue;
+}
+
+#login:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.cont2 {
+    margin-top: 150px;
+    background-color: white;
+}
+
+.btn4 {
+    margin-top: 15px;
+}
+
+.btn4 a {
+
+    font-size: 10px;
+}
+
+.btn4 a:hover {
+    text-decoration: underline;
+}
+
+.fa {
+    background-color: rgb(214, 227, 227);
+    font-size: large;
+    text-decoration: none;
+    padding: 5px 8px;
+}
+
+.cont3 {
+    margin: -10px 0 0 -10px;
+    letter-spacing: 0.3px;
+}
+
+.col2 a {
+    line-height: 0em;
+}
+
+.col2 a:hover {
+    text-decoration: underline;
+}
+
+.para {
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+/* Index.php */
+
+#next {
+    background-color: red;
+}
+
+@media (max-width: 575.98px) {
+    .fb {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .cont1 {
+        margin-top: 40px;
+    }
+
+    .fb p {
+        padding: 0 20px;
+    }
+
+    .btn3 a {
+        margin: 20px 0 0 60px;
+    }
+
+    .btn3 p {
+        margin: -28px 0 0 170px;
+    }
+
+    .cont2 {
+        margin-top: 150px;
+    }
+
+    .btn4 {
+        margin: 20px 20px;
+    }
+
+    .col2 {
+        margin: -20px 20px;
+    }
+
+    .cont3 {
+        margin: -15px 0 0 -10px;
+    }
+
+    .cont3 a {
+        font-size: 12px;
+        padding: -5px;
+    }
+
+    .para {
+        margin-left: 28px;
+        padding-top: 25px;
+    }
+}

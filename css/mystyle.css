@@ -1,0 +1,129 @@
+/* ===============================
+          Default Theme
+ ---------------------------------
+ Fonts:Teko & Jost
+ --------------------------------
+ Colors:
+ -------------------------------
+     Vermillion: #eb2411;
+     Cyber Yellow: #ffd416;
+     Carolin Blue: #1da2f5;
+     black: #000;
+     white: #fff;
+==================================*/
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*================================
+  |   |  Html, Body
+  ================================*/
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+    font-family: 'Teko', sans-serif;
+}
+
+h5 {
+    font-family: 'Jost', sans-serif;
+}
+
+p {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+section {
+    background: #fff;
+    overflow: hidden;
+}
+
+/*================================
+        Buttons
+  ================================*/
+.btn-general {
+    font-family: 'Teko', sans-serif;
+    background-color: #ffd416;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 4px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+/*================================
+     Home
+  ================================*/
+body {
+    background-image: url(../images/backimage/beatiful\ tree.jpg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+#home {
+    background: transparent;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    overflow: hidden;
+
+}
+
+form {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px 50px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+form h5 {
+    color: #fff;
+}
+
+input {
+    background-color: rgb(255, 254, 254);
+    width: 200px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#sign {
+    width: 70px;
+}
+
+#sign:hover {
+    background-color: #fff;
+}
+
+/* Alert */
+.alert {
+    width: 50%;
+}
